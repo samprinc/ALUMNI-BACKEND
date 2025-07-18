@@ -53,7 +53,9 @@ MIDDLEWARE = [
 ]
 
 # CORS
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
+    'https://alumni-pbbhs.vercel.app',
+    'https://alumni-pbbhs.vercel.app:443',]
 
 # URL & WSGI
 ROOT_URLCONF = 'backend.urls'
