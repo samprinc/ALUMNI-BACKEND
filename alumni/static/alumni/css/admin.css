@@ -1,0 +1,31 @@
+/* Change admin header background and text */
+#header {
+  background-color: #800000 !important; /* Paul Boit maroon */
+}
+
+#header h1 a {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Optional: Add your logo to login screen */
+.login h1 a {
+  background-image: url("/static/alumni/images/logo.png"); /* your logo path */
+  background-size: contain;
+  width: 100%;
+  height: 80px;
+  display: block;
+  text-indent: -9999px;
+}
+
+/* Buttons */
+.button, input[type=submit] {
+  background-color: #800000 !important;
+  border-color: #5e0000 !important;
+  color: white !important;
+}
+
+/* Main admin background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}

@@ -121,8 +121,8 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # CLOUDINARY SETTINGS
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': 'dco3yxmss',
-    'API_KEY': '737825857996683',
-    'API_SECRET': '990aTYe2N8Svj-4D9wLU-WAHe6g',
+    'API_KEY': '851727695154737',
+    'API_SECRET': '7P6kNWEVhs6N2OAkYbq_T7fAp5k',
 }
 
 # DEFAULT PK FIELD
